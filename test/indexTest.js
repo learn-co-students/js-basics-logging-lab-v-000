@@ -6,7 +6,7 @@ describe('index.js', function () {
       expect(driver).to.equal('bob');
     });
   });
-
+  
   describe('console.log()', function () {
     const spy = sinon.spy(console, 'log');
 
